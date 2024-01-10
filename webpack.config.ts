@@ -2,6 +2,7 @@ import 'webpack-dev-server';
 import * as webpack from 'webpack';
 import { resolve } from 'node:path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import FaviconsWebpackPlugin from 'favicons-webpack-plugin';
 
 type Mode = 'none' | 'production' | 'development' | undefined;
 
@@ -46,6 +47,7 @@ const config: webpack.Configuration = {
       PRODUCTION: NODE_ENV === 'production',
       PREFIX: JSON.stringify(PREFIX),
     }),
+    new FaviconsWebpackPlugin('example/assets/img/favicon.png'),
   ],
   devServer: {
     compress: true,
