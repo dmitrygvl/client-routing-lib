@@ -1,7 +1,7 @@
 {
   "name": "client-routing-lib",
   "version": "1.0.0",
-  "description": "",
+  "description": "JS client router with hash API & history API",
   "main": "./src/router.js",
   "files": [
     "./router.js",
@@ -15,7 +15,7 @@
     "check-ts": "tsc --noEmit",
     "start": "webpack serve --mode development",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --define-process-env-node-env production",
     "watch": "webpack --mode development --watch"
   },
   "keywords": [],
