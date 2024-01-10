@@ -6,6 +6,12 @@
 
 ## Getting Started
 
+Install @client-routing-lib with [`npm`](https://www.npmjs.com/package/client-routing-lib):
+
+```bash
+npm install client-routing-lib
+```
+
 Using
 
 ```bash

@@ -1,6 +1,6 @@
 {
   "name": "client-routing-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS client router with hash API & history API",
   "main": "./src/router.js",
   "files": [
@@ -23,8 +23,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmitrygvl/routing-lib.git",
-    "dmitrygvl": "https://github.com/dmitrygvl/routing-lib"
+    "url": "git+https://github.com/dmitrygvl/routing-lib.git"
   },
   "bugs": {
     "url": "https://github.com/dmitrygvl/routing-lib/issues"
