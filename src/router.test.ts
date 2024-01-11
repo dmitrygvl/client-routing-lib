@@ -1,4 +1,4 @@
-import { Router, IArgs } from './router';
+import { Router, IArgs } from './router/router';
 
 const sleep = (x: number) => new Promise((r) => setTimeout(r, x));
 

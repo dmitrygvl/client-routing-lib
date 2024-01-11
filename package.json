@@ -1,11 +1,11 @@
 {
   "name": "client-routing-lib",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "JS client router with hash API & history API",
   "main": "./src/router.js",
   "files": [
     "./router.js",
-    "./router.d.ts"
+    "./src/router.d.ts"
   ],
   "scripts": {
     "test": "jest",
@@ -15,10 +15,12 @@
     "check-ts": "tsc --noEmit",
     "start": "webpack serve --mode development",
     "dev": "webpack --mode development",
-    "build": "webpack --define-process-env-node-env production",
+    "build": "webpack --define-process-env-node-env production && npx tsc",
     "watch": "webpack --mode development --watch"
   },
-  "keywords": [],
+  "keywords": [
+    "router"
+  ],
   "author": "dmitrygvl",
   "license": "ISC",
   "repository": {
@@ -28,6 +30,7 @@
   "bugs": {
     "url": "https://github.com/dmitrygvl/routing-lib/issues"
   },
+  "homepage": "https://github.com/dmitrygvl/routing-lib#readme",
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",

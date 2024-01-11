@@ -1,4 +1,4 @@
-import { Router, IArgs } from '../src/router';
+import { Router, IArgs } from '../src/router/router';
 
 const createRender =
   (content: string) =>

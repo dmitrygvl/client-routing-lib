@@ -16,7 +16,7 @@ const config: webpack.Configuration = {
   },
   output: {
     path: resolve(__dirname, 'dist'),
-    filename: '[name].bundle.[hash].js',
+    filename: '[name].bundle.[chunkhash].js',
     clean: true,
     environment: {
       arrowFunction: false,
