@@ -6,13 +6,9 @@
 
 ## Getting Started
 
-Install @client-routing-lib with [`npm`](https://www.npmjs.com/package/client-routing-lib):
+A simple client routing library with support hash API and history API.
 
-```bash
-npm install client-routing-lib
-```
-
-Using
+## Using
 
 ```bash
 const router = new Router();
