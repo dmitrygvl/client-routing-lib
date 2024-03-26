@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Client-routing-lib</title>
+  </head>
+  <body>
+    <header>
+      <h1>Client routing example</h1>
+      <p id="message">
+        You can see the work of the hooks onBeforeEnter, onEnter, onLeave in the
+        console.
+      </p>
+      <p data-name="terms" data-id="hash" style="color: blue; cursor: pointer">
+        Hash API
+      </p>
+      <p
+        data-name="terms"
+        data-id="history"
+        style="color: blue; cursor: pointer"
+      >
+        History API
+      </p>
+      <nav id="nav" style="justify-content: space-around; display: none">
+        <a href="/">Home</a>
+        <a id="contacts" href="/contacts">Contacts</a>
+        <a href="/about">About</a>
+        <a href="/about/us">About / Us</a>
+        <a href="/login">Login</a>
+      </nav>
+    </header>
+    <main id="root" style="display: none"></main>
+  </body>
+</html>
